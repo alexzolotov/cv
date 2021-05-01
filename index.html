@@ -2,48 +2,51 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/my_css.css">
-  <link rel="stylesheet" href="css/skeleton.css">
   <title>Резюме</title>
 </head>
 <body>
-  <div class="container">
-    <div class="title">
-      <h1>Золотов Алексей Сергеевич (39 лет)</h1>
-      <h3>Персональный водитель</h3>
-      <h5>тел: <a href="tel:+7(926)420-10-32">+7(926)420-10-32</a> , email: <a href="mailto:alexzolotov2011@gmail.com">alexzolotov2011@gmail.com</a> (гор. Москва)</h5>
+  <div class="container-my">
+    <div class="row">
+      <h1 class="col-lg-12 col-md-12 col-sm-9">Золотов Алексей Сергеевич (39 лет)</h1>
+      <h3 class="col-lg-12 col-md-12 col-sm-9">Персональный водитель</h3>
+      <h5 class="col-lg-12 col-md-12 col-sm-9">тел: <a href="tel:+7(926)420-10-32">+7(926)420-10-32</a> , email: <a href="mailto:alexzolotov2011@gmail.com">alexzolotov2011@gmail.com</a> (гор. Москва)</h5>
     </div>
     <hr>
     <div class="about-me">
       <div class="row">
-        <div class="seven columns">
+        <div class="col-md-8 col-sm-8 order-2 order-sm-1">
           <h3>О себе:</h3>
           <p>Родился и проживаю в гор. Москва. Основаня должность - персональный водитель. За рулем уже 21 год, со стажем работы более 19 лет (с 1999 года).
           Имею права, категории B, C. Нахожусь в гражданском браке и имею одного ребенка. Обладаю такими качествами, как коммуникабельность, ответственность, внимательность, честность, вежливость, пунктуальность, стрессоустойчивость.</p>
         </div>
-        <div class="five columns">
-          <img src="img/742_oooo.plus.png" height="300" alt="[Фото]">
+        <div class="col-md-4 col-sm-4 order-1 order-sm-2 text-center">
+          <img src="img/me.png" height="300" alt="[Фото]">
         </div>
       </div>
-      <div>
-        <a href="https://wa.me/79264201032?text=Здравствуйте%2C+я+по+вашему+резюме."><img src="https://i.ibb.co/hWwFSps/whatsapp.png" height="30" alt="Значок ВоцАпп"></a>
+      <div class="text-center">
+        <a href="https://wa.me/79264201032?text=Здравствуйте%2C+мы+по+поводу+вашего+резюме.+Вы+нам+понравились."><span>WatsApp</span><img src="https://i.ibb.co/hWwFSps/whatsapp.png" height="30" alt="Значок ВоцАпп"></a>
       </div>
     </div>
     <hr>
     <div class="my-project">
       <h3>Желаемая должность и зарплата</h3>
       <div class="row">
-        <div class="four columns">
+        <div class="col-md-8 col-sm-8 ">
           <h5 class="margin-money">Персональный водитель</h5>
           <p class="margin-money-p">Транспорт, логистика</p>
           <ul class="tabs">
             <li>Водитель</li>
           </ul>
         </div>
-        <div class="eight columns">
+        <div class="col-md-4 col-sm-4">
           <h3>120 000- 150 000 руб.</h3>
         </div>
       </div>
@@ -52,109 +55,109 @@
     <div class="my-education">
       <h3>Опыт работы - 19 лет</h3>
       <div class="row">
-        <div class="four columns">
-          <p>01.02.2019 — настоящее время</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">01.02.2019 — настоящее время</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="no_margin">ООО "НОВЫЙ ГОРОД - АВТОДОР"</h5>
-          <h5 class="no-margin-p">Москва</h5>
-          <h5 class="no_margin-1">Помощник руководителя</h5>
+          <h5 class="no_margin_p">Москва</h5>
+          <h5 class="no_margin_1">Помощник руководителя</h5>
           <p>Доставка руководителя на встречи, работу, домой на легковом автомобиле представительского класса (Volkswagen Multivan T6, Mercedes-Benz GLC AMG 63, Mercedes-Benz E200, Porsche Cayenne, Audi Q7, Mercedes-Benz S-Класс VI Coupe). Сопровождение руководителя по заданному маршруту; Выполнение поручений руководства в течении дня; Контроль за техническим состоянием, а/м, ТО; Поддержание служебного автомобиля в чистоте; Заблаговременное планирование оптимального маршрута; Оформление путевых листов для бухгалтерии;</p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="four columns">
-          <p>01.06.2018 — 31.01.2019(7 месяцев)</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">01.06.2018 — 31.01.2019(7 месяцев)</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="no_margin">ООО "Ренис-авто"</h5>
-          <p class="no-margin-p">Москва</p>
-          <h5 class="no_margin-1">Помощник руководителя</h5>
+          <p class="no_margin_p">Москва</p>
+          <h5 class="no_margin_1">Помощник руководителя</h5>
           <p>Доставка руководителя на встречи, работу, домой на легковом автомобиле представительского класса (Volkswagen Multivan T6, Mercedes-Benz GLC AMG 63). Сопровождение руководителя по заданному маршруту; Выполнение поручений руководства в течении дня; Контроль за техническим состоянием, а/м, ТО; Поддержание служебного автомобиля в чистоте; Заблаговременное планирование оптимального маршрута; Оформление путевых листов для бухгалтерии</p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="four columns">
-          <p>03.08.2015 — 01.04.2017(1 год, 7 месяцев)</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">03.08.2015 — 01.04.2017(1 год, 7 месяцев)</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="no_margin">ООО "Домашний ДЕТСАД"</h5>
-          <p class="no-margin-p">Москва</p>
-          <h5 class="no_margin-1">Помощник руководителя (в качестве совместителя)</h5>
+          <p class="no_margin_p">Москва</p>
+          <h5 class="no_margin_1">Помощник руководителя (в качестве совместителя)</h5>
           <p>Доставка руководителя на встречи, работу, домой на легковом автомобиле представительского класса (Volkswagen Multivan T5, Mercedes-Benz V-Класс). Сопровождение руководителя по заданному маршруту; Выполнение поручений руководства в течении дня; Контроль за техническим состоянием, а/м, ТО; Поддержание служебного автомобиля в чистоте; Заблаговременное планирование оптимального маршрута; Оформление путевых листов для бухгалтерии;</p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="four columns">
-          <p>01.10.2013 —  08.05.2018(4 года, 7 месяцев)</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">01.10.2013 —  08.05.2018(4 года, 7 месяцев)</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="no_margin">ООО "Бэби-Клуб"</h5>
-          <p class="no-margin-p">Москва</p>
-          <h5 class="no_margin-1">Водитель</h5>
+          <p class="no_margin_p">Москва</p>
+          <h5 class="no_margin_1">Водитель</h5>
           <p>Доставка руководителя на встречи, работу, домой на легковом автомобиле представительского класса (Volkswagen Multivan T5, Mercedes-Benz V-Класс). Сопровождение руководителя по заданному маршруту; Выполнение поручений руководства в течении дня; Контроль за техническим состоянием, а/м, ТО; Поддержание служебного автомобиля в чистоте; Заблаговременное планирование оптимального маршрута; Оформление путевых листов для бухгалтерии;</p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="four columns">
-          <p>17.01.2013 —  24.09.2014 (1 год, 8 месяцев)</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">17.01.2013 —  24.09.2014 (1 год, 8 месяцев)</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="no_margin">ООО "Управляющая Компания Уралсиб"</h5>
-          <p class="no-margin-p">Москва</p>
-          <h5 class="no_margin-1">Персональный водитель руководителя</h5>
+          <p class="no_margin_p">Москва</p>
+          <h5 class="no_margin_1">Персональный водитель руководителя</h5>
           <p>Доставка руководителя на встречи, работу, домой на легковом автомобиле представительского класса (Audi A6, Volvo S80). Сопровождение руководителя по заданному маршруту; Выполнение поручений руководства в течении дня; Контроль за техническим состоянием, а/м, ТО; Поддержание служебного автомобиля в чистоте; Заблаговременное планирование оптимального маршрута; Оформление путевых листов для бухгалтерии;</p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="four columns">
-          <p>05.09.2011 — 16.01.2013 (1 год, 4 месяца)</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">05.09.2011 — 16.01.2013 (1 год, 4 месяца)</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="no_margin">ООО "Лизинговая Компания Уралсиб"</h5>
-          <p class="no-margin-p">Москва</p>
-          <h5 class="no_margin-1">Персональный водитель руководителя</h5>
+          <p class="no_margin_p">Москва</p>
+          <h5 class="no_margin_1">Персональный водитель руководителя</h5>
           <p>Доставка руководителя на встречи, работу, домой на легковом автомобиле представительского класса (Audi A6, Volvo S80); Сопровождение руководителя по заданному маршруту; Выполнение поручений руководства в течении дня; Контроль за техническим состоянием, а/м, ТО; Поддержание служебного автомобиля в чистоте; Заблаговременное планирование оптимального маршрута; Оформление путевых листов для бухгалтерии;</p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="four columns">
-          <p>2005 — 2011 (6 лет)</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">2005 — 2011 (6 лет)</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="no_margin">ПАО МОЭК, филиал № 9 (СЗАО)</h5>
-          <p class="no-margin-p">Москва</p>
-          <h5 class="no_margin-1">Водитель</h5>
+          <p class="no_margin_p">Москва</p>
+          <h5 class="no_margin_1">Водитель</h5>
           <p>Доставка сотрудников предприятия до места магистральных аварий. Ведение отчетов по расходу ГСМ Составление плана прохождения ТО на подотчетных А/М. Ведение табеля маршрутных листов. Составление отчетов по пройденному километражу. Расчет времени прибытия от места сбора до места назначения. Соблюдение норм расхода ГСМ. Мониторинг состояния моторного агрегата, шасси, ходовой части, чистоты салона подотчетного А/М. Соблюдение ПДД РФ. Прохождение ежедневных медицинских осмотров перед выходом на линию. Корректировка «Зимнего» и «Летнего» расхода ГСМ в условиях эксплуатации смешанного цикла. Помощь сотрудникам предприятия в любых вопросах, связанных с выполнением ремонтных работ.</p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="four columns">
-          <p>2002 — 2005 (3 года)</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">2002 — 2005 (3 года)</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="margin-mosenergo">МОСТЕПЛОЭНЕРГО ГУП ПРЕДПРИЯТИЕ ТСиС № 4 АВАРИЙНАЯ СЛУЖБА СЗАО</h5>
-          <p class="no-margin-p">Москва</p>
-          <h5 class="no_margin-1">Водитель</h5>
+          <p class="no_margin_p">Москва</p>
+          <h5 class="no_margin_1">Водитель</h5>
           <p>Доставка сотрудников предприятия до места магистральных аварий. Ведение отчетов по расходу ГСМ Составление плана прохождения ТО на подотчетных А/М. Ведение табеля маршрутных листов. Составление отчетов по пройденному километражу. Расчет времени прибытия от места сбора до места назначения. Соблюдение норм расхода ГСМ. Мониторинг состояния моторного агрегата, шасси, ходовой части, чистоты салона подотчетного А/М. Соблюдение ПДД РФ. Прохождение ежедневных медицинских осмотров перед выходом на линию. Корректировка «Зимнего» и «Летнего» расхода ГСМ в условиях эксплуатации смешанного цикла. Помощь сотрудникам предприятия в любых вопросах, связанных с выполнением ремонтных работ.</p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="four columns">
-          <p>1999 —  2000 (1 год)</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">1999 —  2000 (1 год)</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="margin-mosenergo">МОСТЕПЛОЭНЕРГО ГУП ПРЕДПРИЯТИЕ ТСиС № 4 АВАРИЙНАЯ СЛУЖБА СЗАО</h5>
-          <p class="no-margin-p">Москва</p>
-          <h5 class="no_margin-1">Столяр - 4 разряда</h5>
+          <p class="no_margin_p">Москва</p>
+          <h5 class="no_margin_1">Столяр - 4 разряда</h5>
           <p>Сборка узлов из необлицованных деталей. Склейка брусков в ваймах с обогревом токами высокой частоты. Склейка в ваймах и различных приспособлениях облицованных рамок и брусков из древесины твердых лиственных пород. Строгание, зачистка и шлифование провесов в рамках и щитах из древесины хвойных пород и в брусковых деталях сложного профиля. Подготовка поверхностей деталей разных изделий к облицовыванию. Комплексное изготовление ящиков, изделий мебели различного назначения. Подготовка и установка на клею и шурупах деталей к неотделанным узлам и изделиям; установка крепежной фурнитуры в неотделанных узлах и деталях. Сверление отверстий под шканты и шурупы ручным пневмоинструментом, постановка шкантов. Ремонт изделий гнутой мебели.</p>
         </div>
       </div>
@@ -163,19 +166,19 @@
     <div class="demo-education">
       <h3>Высшее образование</h3>
        <div class="row">
-        <div class="four columns">
-          <p>1996 - 1999</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">1996 - 1999</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="no_margin">СПТУ-112</h5>
           <p>Мастер столярного и мебельного производства по специальности: Столяр - 3 разряда. Сборщик изделий из древесины - 3 разряда</p>
         </div>
       </div>
       <div class="row">
-        <div class="four columns">
-          <p>2003-2009</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">2003-2009</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <h5 class="margin-mosenergo">Московский Государственный Открытый Университет (МГОУ)</h5>
           Инженер по специальности Теплогазоснабжения и Вентиляция
         </div>
@@ -185,31 +188,33 @@
     <div class="my-skils">
       <h3>Военная служба</h3>
       <div class="row">
-        <div class="four columns">
-          <p>2000-2002</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="date">2000-2002</p>
         </div>
-        <div class="eight columns">
-          <h5 class="margin-voen">Служба в Вооруженные силы РФ В\Ч 05390</h5>
+        <div class="col-md-8 col-sm-8">
+          <h5 class="margin-voen">Служба в Вооруженные силы РФ В\Ч 05390 (ВДВ)</h5>
           <p>Рядовой</p>
         </div>
       </div>
     </div>
     <hr>
     <div class="qualities">
-      <h4>Профессиональные навыки и знания</h4>
+      <h3 c>Профессиональные навыки и знания</h3>
       <div class="row">
-        <div class="four columns">
-          <p>Знание языков</p>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+          <p class="rai">Знание языков:</p>
         </div>
-        <div class="eight columns">
-          Русский
+        <div class="col-md-8 col-sm-8 col-xs-8">
+          <ul>
+          <li>Русский</li>
+          </ul>
         </div>
       </div>
       <div class="row">
-        <div class="four columns">
-          <p>Навыки</p>
+        <div class="col-md-4 col-sm-4">
+          <p class="rai">Навыки:</p>
         </div>
-        <div class="eight columns">
+        <div class="col-md-8 col-sm-8">
           <ul>
             <li>Наличие водительского удостоверения категорий B, C</li>
             <li> Стаж вождения - 21 год</li>

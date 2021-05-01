@@ -1,18 +1,45 @@
+body {
+	font-family: 'M PLUS Rounded 1c', sans-serif; 
+}
+
+.container-my {
+    max-width: 1024px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	font-size: 32px;
+	margin-bottom: 2rem;
+}
+
+h5 {
+	font-size: 24px;
+	margin-bottom: 2rem;
+}
 .no_margin {
 	font-weight: bold;
 	font-size: 22px;
  	margin: 0;
-  	padding-bottom: 10px;
+  	padding-bottom: 20px;
   	line-height: 0;
 }
 
-.no-margin-p {
+.no_margin_p {
 	font-size: 16px;
-  	padding-bottom: 10px;
+  	padding-bottom: 20px;
   	margin-bottom: 0;
 }
 
-.no_margin-1 {
+.no_margin_1 {
 	font-weight: bold;
 	font-size: 18px;
  	margin: 0;
@@ -32,7 +59,7 @@
 	font-weight: bold;
 	font-size: 22px;
  	margin: 0;
-  	padding-bottom: 10px;
+  	padding-bottom: 20px;
   	line-height: 0;
 }
 
@@ -45,4 +72,89 @@
 
 .margin-money-p {
 	font-size: 16px;
+}
+
+@media (max-width: 960px) {
+.margin-voen {
+		line-height: 1;
+	}
+  .no_margin_1 {
+  	line-height: 1;
+  }
+  .no_margin {
+  	line-height: 1;
+  }
+}
+
+@media (max-width: 615px) {
+
+}
+
+@media (max-width: 640px) {
+.no_margin {
+    font-weight: bold;
+	font-size: 22px;
+ 	margin: 0;
+  	padding-bottom: 10px;
+  	line-height: 1;
+    }
+    .no_margin_p {
+	font-size: 16px;
+  	padding-bottom: 20px;
+  	margin-bottom: 0;
+  }
+  .no_margin_1 {
+	font-size: 16px;
+  	padding-bottom: 20px;
+  	margin-bottom: 0;
+  }
+  .date {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.rai {
+		font-weight: bold;
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 480px) {
+  .no_margin {
+    font-weight: bold;
+	font-size: 22px;
+ 	margin: 0;
+  	padding-bottom: 10px;
+  	line-height: 1;
+    }
+    .no_margin_p {
+	font-size: 16px;
+  	padding-bottom: 20px;
+  	margin-bottom: 0;
+  }
+  .no_margin_1 {
+	font-size: 16px;
+  	padding-bottom: 20px;
+  	line-height: 1;
+  }
+  h5 {
+	font-size: 18px;
+	margin-bottom: 2rem;
+	}
+	.margin-money {
+	font-weight: bold;
+	font-size: 18px;
+  	padding-bottom: 20px;
+  	line-height: 0;
+	}
+	.date {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.margin-voen {
+		line-height: 1;
+	}
+	.rai {
+		font-weight: bold;
+		font-size: 18px;
+	}
 }
