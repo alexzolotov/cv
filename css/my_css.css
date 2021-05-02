@@ -72,6 +72,7 @@ h5 {
 
 .margin-money-p {
 	font-size: 16px;
+	margin-bottom: 0;
 }
 
 @media (max-width: 2440px) {
@@ -96,11 +97,16 @@ h5 {
   .no_margin {
   	line-height: 1;
   }
+
 }
 
 @media (max-width: 615px) {
 .margin-voen {
 		line-height: 1;
+	}
+.margin-money-p {
+	font-size: 16px;
+	margin-bottom: 8px;
 	}
 }
 
