@@ -74,6 +74,18 @@ h5 {
 	font-size: 16px;
 }
 
+@media (max-width: 2440px) {
+.margin-voen {
+		line-height: 1;
+	}
+  .no_margin_1 {
+  	line-height: 1;
+  }
+  .no_margin {
+  	line-height: 1;
+  }
+}
+
 @media (max-width: 960px) {
 .margin-voen {
 		line-height: 1;
@@ -87,7 +99,9 @@ h5 {
 }
 
 @media (max-width: 615px) {
-
+.margin-voen {
+		line-height: 1;
+	}
 }
 
 @media (max-width: 640px) {
