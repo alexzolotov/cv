@@ -15,7 +15,8 @@
 <body>
   <div class="container-my">
     <div class="row">
-      <h1 class="col-lg-12 col-md-12 col-sm-9">Золотов Алексей Сергеевич (41 год)</h1>
+      <!-- id="age" — сюда скрипт подставит возраст -->
+      <h1 class="col-lg-12 col-md-12 col-sm-9">Золотов Алексей Сергеевич (<span id="age">44 года</span>)</h1>
       <h3 class="col-lg-12 col-md-12 col-sm-9">Персональный водитель</h3>
       <h5 class="col-lg-12 col-md-12 col-sm-9">тел: <a href="tel:+7(926)420-10-32">+7(926)420-10-32</a> , email: <a href="mailto:alexzolotov2011@gmail.com">alexzolotov2011@gmail.com</a> (гор. Москва)</h5>
     </div>
@@ -24,7 +25,8 @@
       <div class="row">
         <div class="col-md-8 col-sm-8 order-2 order-sm-1">
           <h3>О себе:</h3>
-          <p>Родился и проживаю в г. Москва. Основная должность - персональный водитель. За рулем уже 23 года, со стажем работы более 21 года (с 1999 года). 
+          <!-- id="drive-exp" и id="work-exp" — сюда скрипт подставит стаж -->
+          <p>Родился и проживаю в г. Москва. Основная должность - персональный водитель. За рулем уже <span id="drive-exp">27 лет</span>, со стажем работы более <span id="work-exp">27 лет</span> (с 1999 года).
              Права категории B;C. Гражданский брак, сын . Обладаю такими качествами, как коммуникабельность, ответственность, внимательность, честность, вежливость, пунктуальность, стрессоустойчивость.</p>
         </div>
         <div class="col-md-4 col-sm-4 order-1 order-sm-2 text-center">
@@ -52,37 +54,39 @@
     </div>
     <hr>
     <div class="qualities">
-      <h3 c>Профессиональные навыки и знания</h3>
+      <h3>Профессиональные навыки и знания</h3>
       <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-4">
           <p class="rai">Знание языков:</p>
         </div>
         <div class="col-md-8 col-sm-8 col-xs-8">
           <ul>
-          <li>Русский</li>
+            <li>Русский</li>
           </ul>
         </div>
       </div>
       <hr>
     </div>
     <div class="row">
-       <div class="col-md-4 col-sm-4">
-         <p class="rai">Навыки:</p>
-       </div>
-       <div class="col-md-8 col-sm-8">
-         <ul>
-           <li>Наличие водительского удостоверения категорий B, C</li>
-           <li> Стаж вождения - 23 года</li>
-           <li>Отличное знание ПДД</li>
-           <li>Отличное знание Москвы и области, альтернативные маршруты;</li>
-           <li>Аккуратное и безаварийное вождение;</li>
-           <li>Опыт работы персональным водителем на автомобилях представительского класса.</li>
-          </ul>
-       </div>
+      <div class="col-md-4 col-sm-4">
+        <p class="rai">Навыки:</p>
+      </div>
+      <div class="col-md-8 col-sm-8">
+        <ul>
+          <li>Наличие водительского удостоверения категорий B, C</li>
+          <!-- id="drive-exp-skill" — стаж вождения в навыках -->
+          <li>Стаж вождения - <span id="drive-exp-skill">27 лет</span></li>
+          <li>Отличное знание ПДД</li>
+          <li>Отличное знание Москвы и области, альтернативные маршруты;</li>
+          <li>Аккуратное и безаварийное вождение;</li>
+          <li>Опыт работы персональным водителем на автомобилях представительского класса.</li>
+        </ul>
+      </div>
     </div>
     <hr>
     <div class="my-education">
-      <h3>Опыт работы - 21 год</h3>
+      <!-- id="work-exp-title" — общий опыт работы в заголовке -->
+      <h3>Опыт работы - <span id="work-exp-title">27 лет</span></h3>
       <div class="row">
         <div class="col-md-4 col-sm-4">
           <p class="date">08.05.2020 — настоящее время</p>
@@ -133,7 +137,7 @@
       <hr>
       <div class="row">
         <div class="col-md-4 col-sm-4">
-          <p class="date">01.10.2013 —  08.05.2018(4 года, 7 месяцев)</p>
+          <p class="date">01.10.2013 — 08.05.2018(4 года, 7 месяцев)</p>
         </div>
         <div class="col-md-8 col-sm-8">
           <h5 class="no_margin">ООО "Бэби-Клуб"</h5>
@@ -145,7 +149,7 @@
       <hr>
       <div class="row">
         <div class="col-md-4 col-sm-4">
-          <p class="date">17.01.2013 —  24.09.2014 (1 год, 8 месяцев)</p>
+          <p class="date">17.01.2013 — 24.09.2014 (1 год, 8 месяцев)</p>
         </div>
         <div class="col-md-8 col-sm-8">
           <h5 class="no_margin">ООО "Управляющая Компания Уралсиб"</h5>
@@ -193,7 +197,7 @@
       <hr>
       <div class="row">
         <div class="col-md-4 col-sm-4">
-          <p class="date">1999 —  2000 (1 год)</p>
+          <p class="date">1999 — 2000 (1 год)</p>
         </div>
         <div class="col-md-8 col-sm-8">
           <h5 class="margin-mosenergo">МОСТЕПЛОЭНЕРГО ГУП ПРЕДПРИЯТИЕ ТСиС № 4 АВАРИЙНАЯ СЛУЖБА СЗАО</h5>
@@ -240,5 +244,40 @@
     </div>
     <hr>
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const BIRTH_YEAR  = 1981;
+      const BIRTH_MONTH = 8;   
+      const BIRTH_DAY   = 21;
+
+      const now       = new Date();
+      const birthDate = new Date(BIRTH_YEAR, BIRTH_MONTH, BIRTH_DAY);
+
+      // Возраст
+      let age = now.getFullYear() - birthDate.getFullYear();
+      const mDiff = now.getMonth() - birthDate.getMonth();
+      if (mDiff < 0 || (mDiff === 0 && now.getDate() < birthDate.getDate())) age--;
+
+      // Стаж — с 1999 года
+      const driveExp = now.getFullYear() - 1999;
+      const workExp  = now.getFullYear() - 1999;
+
+      function pluralYears(n) {
+        const abs = Math.abs(n) % 100;
+        const n1  = abs % 10;
+        if (abs > 10 && abs < 20) return 'лет';
+        if (n1 > 1 && n1 < 5)    return 'года';
+        if (n1 === 1)             return 'год';
+        return 'лет';
+      }
+
+      document.getElementById('age').textContent           = age      + ' ' + pluralYears(age);
+      document.getElementById('drive-exp').textContent     = driveExp + ' ' + pluralYears(driveExp);
+      document.getElementById('drive-exp-skill').textContent = driveExp + ' ' + pluralYears(driveExp);
+      document.getElementById('work-exp').textContent      = workExp  + ' ' + pluralYears(workExp);
+      document.getElementById('work-exp-title').textContent = workExp  + ' ' + pluralYears(workExp);
+    });
+  </script>
 </body>
 </html>
